@@ -1,9 +1,9 @@
 import { test, expect } from "../../../fixtures/userFixture";
-import { HomePage } from "../../../pages/homePage";
-import { ProductPage } from "../../../pages/productPage";
-import { CartPage } from "../../../pages/cartPage";
-import { CheckoutPage } from "../../../pages/checkoutPage";
-import { PaymentPage } from "../../../pages/paymentPage";
+import { HomePage } from "../../../pages/HomePage";
+import { ProductPage } from "../../../pages/ProductPage";
+import { CartPage } from "../../../pages/CartPage";
+import { CheckoutPage } from "../../../pages/CheckoutPage";
+import { PaymentPage } from "../../../pages/PaymentPage";
 
 test("user can complete purchase flow @e2e @regression", async ({
   page,
