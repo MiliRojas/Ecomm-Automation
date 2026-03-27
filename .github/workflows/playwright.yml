@@ -75,6 +75,9 @@ jobs:
         with:
           name: user-data
 
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
       - name: Run API tests
         run: npm run test:api
 
