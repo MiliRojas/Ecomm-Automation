@@ -1,4 +1,4 @@
-import { test as base } from "@playwright/test";
+import { test as base } from "./uiFixture";
 import { UserFixture } from "../types/user";
 import { generateUser } from "../utils/dataFactory";
 import { SignupPage } from "../pages/SignupPage";
